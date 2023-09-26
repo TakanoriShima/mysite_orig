@@ -1,90 +1,92 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <!-- CSSファイルの読み込み -->
-    <link rel="stylesheet" href="style.css" />
-    <title>MySite</title>
-  </head>
-
-  <body>
-
-    <!-- header -->
-    <header>
-      <nav>
-        <h1 class="heading">
-          <a href="index.html">
-            <img src="img/logo.png">
-          </a>
-        </h1>
-        <ul class="nav-list">
-          <li class="nav-list-item">
-            <a href="index.html">Portfolio</a>
-          </li>
-          <li class="nav-list-item">Feature</li>
-          <li class="nav-list-item">Profile</li>
-          <li class="nav-list-item">Contact</li>
-        </ul>
-      </nav>
-    </header>
-
-    <!-- main-visual用のdiv -->
-    <div class="main-visual">
-      <div class="main-visual-text">
-        <!-- pタグ（と文字）を追加 -->
-        <p class="main-visual-title">Lorem lpsum</p>
-        <p class="main-visual-subtitle">simply dummy text of the printing</p>
-      </div>
-    </div>
-
-    <main>
-      <section class="portfolio">
-        <h2>Portfolio</h2>
-        <div class="border_line"></div>
-        <p class="main-text">
-          It is a long established fact that a reader will be distracted by readable <br>
-          content of a page when looking at its layout<br>
-          The point of Going Lorem lpsum is that it has a more-or-less normal <br>
-          distribution of letter
-        </p>
-        <div class="main-contents">
-          <div class="main-contents-box desk"></div>
-          <div class="main-contents-box pc-blue"></div>
-          <div class="main-contents-box write-board"></div>
-          <div class="main-contents-box pc-yellow"></div>
-          <div class="main-contents-box talk"></div>
-          <div class="main-contents-box pc-pink"></div>
+    <head>
+        <meta charset="UTF-8">
+        <!-- CSSファイルの読み込み -->
+        <link rel="stylesheet" href="style.css">
+        <title>MySite</title>
+    </head>
+    <body>
+        <!-- header -->
+        <header>
+            <nav>
+                <h1 class="heading">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="logo.png">
+                    </a>
+                </h1>
+                <ul class="nav-list">
+                    <li class="nav-list-item">
+                        <a href="index.html">Portfolio</a>
+                    </li>
+                    <li class="nav-list-item">Feature</li>
+                    <li class="nav-list-item">Profile</li>
+                    <li class="nav-list-item">Contact</li>
+                </ul>
+            </nav>
+        </header>
+        <!-- main-visual用のdiv -->
+        <div class="main-visual">
+            <div class="main-visual-text">
+                <p class="main-visual-title">Lorem lpsum</p>
+                <p class="main-visual-subtitle">simply dummy text of the printing</p>
+            </div>
         </div>
-      </section>
-
-      <section class="profile">
-        <h2>Profile</h2>
-        <div class="border_line"></div>
-        <p class="main-text">
-          It is a long estabilshed fact that a reader will be distracted by readable<br>
-          content of a page when looking at its layout<br>
-          The point of Going Lorem Ipsum is that it has a more-or-less normal distribution of letter<br>
-        </p>
-
-        <div class="main-contents2">
-          <div class="main-contents2-box-man"></div>
-          <div class="main-contents2-text">
-            <h3>Myname</h3>
-              Lorem Ipsum is simply dummy text of the printing<br>
-              and typesetting industry. Lorem Ipsum has been<br>
-              the industry's standard dummy text ever since the<br>
-              1500s, and more recently with desktop publishing<br>
-              software like Aldus PageMaker including versions<br>
-              of Lorem Ipsum.<br>
-            <h3>MySkill</h3>
-              HTML&CSS/JavaScript/Photoshop/Ruby/Ruby on<br>
-              Rails<br>
-          </div>
-        </section>  
-    </main>
-
-    <footer>
-      <p class="footer-text">©2017 WebCamp</p>
-    </footer>
-  </body>
+        <!-- main -->
+        <main>
+            <!-- Portfolio -->
+            <section class="portfolio">
+                <h2>Portfolio</h2>
+                <div class="border_line"></div>
+                <p class="main-text">It is a long established fact that a reader will be distracted by readable 
+                    <br>content of a page when looking at its layout 
+                    <br>The point of Going Lorem lpsum is that it has a more-or-less normal 
+                    <br>distribution of letter 
+                </p>
+                <div class="main-contents">
+                    <div class="main-contents-box desk"></div>
+                    <div class="main-contents-box pc-blue"></div>
+                    <div class="main-contents-box write-board"></div>
+                    <div class="main-contents-box pc-yellow"></div>
+                    <div class="main-contents-box talk"></div>
+                    <div class="main-contents-box pc-pink"></div>
+                </div>
+            </section>
+            <!-- Profile -->
+            <section class="profile">
+                <h2>Profile</h2>
+                <div class="border_line"></div>
+                <p class="main-text">It is a long estabilshed fact that a reader will be distracted by readable 
+                    <br>content of a page when looking at its layout 
+                    <br>The point of Going Lorem Ipsum is that it has a more-or-less normal distribution of letter 
+                    <br>
+                </p>
+                <div class="profile-contents">
+                    <div class="profile-contents-box">
+                        <img src="./img/my-icon.jpg" alt="my-icon.jpg">
+                    </div>
+                    <div class="profile-contents-text">
+                        <h3>MyName</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing 
+                            <br>and typesetting industry. Lorem Ipsum has been 
+                            <br>the industry's standard dummy text ever since the 
+                            <br>1500s, and more recently with desktop publishing 
+                            <br>software like Aldus PageMaker including versions 
+                            <br>of Lorem Ipsum. 
+                            <br>
+                        </p>
+                        <h3>MySkill</h3>
+                        <p>HTML&CSS/JavaScript/Photoshop/Ruby/Ruby on 
+                            <br>Rails 
+                            <br>
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- footer -->
+        <footer>
+            <p class="footer-text">&copy; 2017 WebCamp</p>
+        </footer>
+    </body>
 </html>
